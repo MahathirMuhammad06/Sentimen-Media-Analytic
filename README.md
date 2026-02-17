@@ -1,3 +1,49 @@
+cara Untuk setup frontend
+
+# Frontend - Sentimen Media Analytic
+
+Frontend aplikasi **Sentimen Media Analytic** yang dibangun menggunakan
+framework **Laravel** untuk menampilkan hasil analisis sentimen media
+dalam bentuk dashboard web interaktif.
+
+---
+
+## 📌 Deskripsi
+
+Frontend ini berfungsi sebagai antarmuka pengguna (user interface) untuk:
+
+- Menampilkan data hasil crawling berita
+- Menyajikan visualisasi analisis sentimen
+- Mengelola data pengguna
+- Menyediakan dashboard monitoring opini publik
+
+Frontend terhubung dengan backend berbasis Python melalui API.
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+
+- Laravel
+- PHP 8+
+- Tailwind CSS
+- JavaScript
+- Vite
+- MySQL
+
+---
+
+## ✨ Fitur Utama
+
+- Dashboard analisis sentimen
+- Grafik dan statistik data
+- Sistem autentikasi pengguna
+- Manajemen data berita
+- Tampilan responsif
+
+---
+
+## 📂 Struktur Folder
+
 
 
 
