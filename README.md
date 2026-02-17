@@ -61,7 +61,7 @@ frontend-media-analytic-end/
 
 └── tests/ # Testing
 
-Cara Setup Frontend
+## Cara Setup Frontend
 # Install Dependency
 composer install
 npm install
@@ -87,7 +87,7 @@ npm run dev
 
 
 
-Cara Untuk melakukan setup backendnya
+## Cara Untuk melakukan setup backendnya
 # Change Directory
 cd backend-media-analytic-end
 
