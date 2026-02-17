@@ -1,0 +1,28 @@
+# =========================
+# Laravel
+# =========================
+/frontend-media-analytic-end/vendor/
+/frontend-media-analytic-end/node_modules/
+/frontend-media-analytic-end/.env
+
+# =========================
+# Python
+# =========================
+/backend-media-analytic-end/.venv/
+/backend-media-analytic-end/venv/
+/backend-media-analytic-end/__pycache__/
+*.pyc
+
+# =========================
+# Machine Learning Models
+# =========================
+*.safetensors
+*.pt
+*.pth
+/backend-media-analytic-end/src/ml/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db

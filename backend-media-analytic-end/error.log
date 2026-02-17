@@ -1,0 +1,18 @@
+INFO:     Will watch for changes in these directories: ['C:\\Users\\zaini\\.vscode\\ProyekKP\\medal-backend']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [29728] using StatReload
+2026-01-13 14:49:20,268 [INFO] src.ml.sentiment_analyzer - Loading sentiment model from src\ml\model
+`torch_dtype` is deprecated! Use `dtype` instead!
+2026-01-13 14:49:20.647439: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-01-13 14:49:23.114029: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-01-13 14:49:29,189 [INFO] src.ml.sentiment_analyzer - Sentiment model loaded successfully (.safetensors)
+2026-01-13 14:49:29,200 [INFO] src.ml.sentiment_analyzer - Loading sentiment model from src\ml\model
+2026-01-13 14:49:29,310 [INFO] src.ml.sentiment_analyzer - Sentiment model loaded successfully (.safetensors)
+INFO:     Started server process [23568]
+INFO:     Waiting for application startup.
+2026-01-13 14:49:29,347 [INFO] src.api.main - Starting Media Analytics Backend v1.0.0...
+2026-01-13 14:49:29,350 [INFO] src.database.repository - Database initialized
+2026-01-13 14:49:29,350 [INFO] src.api.main - \u2713 Database initialized
+2026-01-13 14:49:29,351 [INFO] src.api.main - \u2713 API running at http://0.0.0.0:8000/api/v1
+2026-01-13 14:49:29,351 [INFO] src.api.main - \u2713 Documentation at http://0.0.0.0:8000/api/docs
+INFO:     Application startup complete.

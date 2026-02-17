@@ -1,0 +1,43 @@
+# Core Web Framework
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+pydantic==2.10.3
+python-multipart==0.0.20
+
+# API & HTTP
+requests==2.32.3
+httpx==0.25.2
+
+# Database & ORM
+SQLAlchemy==2.0.44
+alembic==1.13.1
+
+# Web Scraping
+beautifulsoup4==4.14.3
+feedparser==6.0.12
+lxml==6.0.2
+
+# Machine Learning
+transformers==4.57.3
+torch==2.9.1
+safetensors==0.7.0
+
+# Task Queue (Optional - for background tasks)
+celery==5.6.2
+redis==7.1.0
+kombu==5.6.2
+
+# Scheduling
+APScheduler==3.11.2
+schedule==1.2.2
+
+# Utilities
+python-dotenv==1.0.1
+click==8.1.7
+
+# Development & Testing
+pytest==7.4.3
+gunicorn==23.0.0
+
+# Logging & Monitoring
+Werkzeug==3.1.3
