@@ -47,13 +47,36 @@ Frontend terhubung dengan backend berbasis Python melalui API.
 frontend-media-analytic-end/
 │
 ├── app/ # Logic aplikasi
+
 ├── config/ # Konfigurasi
+
 ├── database/ # Migration & Seeder
+
 ├── public/ # Asset publik
+
 ├── resources/ # View & CSS
+
 ├── routes/ # Routing
+
 └── tests/ # Testing
 
+Cara Setup Frontend
+# Install Dependency
+composer install
+npm install
+
+# Konfigurasi Environment
+cp .env.example .env
+
+# Generate Key
+php artisan key:generate
+
+# Migrasi Database
+php artisan migrate
+
+# Jalankan Server
+php artisan serve
+npm run dev
 
 
 
