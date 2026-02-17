@@ -45,7 +45,8 @@ Frontend terhubung dengan backend berbasis Python melalui API.
 ## 📂 Struktur Folder
 
 frontend-media-analytic-end/
-│
+
+
 ├── app/ # Logic aplikasi
 
 ├── config/ # Konfigurasi
