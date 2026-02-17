@@ -10,6 +10,7 @@
 
 
 Cara Untuk melakukan setup backendnya
+# Change Directory
 cd backend-media-analytic-end
 
 # Install dependencies
